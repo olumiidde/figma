@@ -397,7 +397,7 @@ padding-bottom: 2rem;
   display: flex;
   align-items: center;
   gap: 7rem;
-  margin: 3rem 0;
+  /* margin: 3rem 0; */
 }
 
 .Footerlist{
