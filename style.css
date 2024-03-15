@@ -72,6 +72,13 @@ li:hover {
   width: 50%;
 }
 
+.imageside {
+  width: 50%;
+}
+.imageside img{
+  width: 100%;
+}
+
 .text1 h2 {
   color: #fff;
   font-family: montserrat;
@@ -163,7 +170,7 @@ padding: .5rem 2.2rem;
   width: 55%;
   margin: auto;
   align-items: center;
-  gap: 12rem;
+  gap: 5rem;
 }
 
 .lines{
@@ -225,6 +232,16 @@ line-height: normal;
 padding: 2rem 0;
 }
 
+.benefitText2 h4{
+color: #043CAA;
+font-family: montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 1rem 0;
+}
+
 .benefitFlex{
   display: flex;
   justify-content: space-between;
@@ -256,6 +273,30 @@ margin-top: 5%;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
+  gap: 3rem;
+}
+
+.benefitText{
+  width: 50%;
+}
+
+.benefitImage{
+  width: 50%;
+}
+
+.benefitImage img{
+  width: 100%;
+}
+.benefitText2{
+  width: 50%;
+}
+
+.benefitImage2{
+  width: 50%;
+}
+
+.benefitImage2 img{
+  width: 80%;
 }
 
 .profileFlex{
@@ -404,14 +445,11 @@ padding-bottom: 2rem;
 display: flex;
 align-items: center;
 gap: 4rem;
+width: 80%;
 }
 
 .express{
   width: 20%;
-}
-
-.flist{
-  width: 80%;
 }
 
 .flist p{
@@ -447,11 +485,12 @@ padding-bottom: 1rem;
 .express p{
 color: #FFF;
 font-family: montserrat;
-font-size: 18px;
+font-size: 16px;
 font-style: normal;
-font-weight: 900;
+font-weight: 400;
 line-height: normal;
 padding-bottom: 1rem;
+width: 70%;
 }
 
 .copyright p{
@@ -465,3 +504,387 @@ padding-bottom: 1rem;
 text-align: center;
 }
 
+@media screen and (max-width: 1024px){
+  .text1 h2 {
+    font-size: 40px;
+  }
+  
+  .text1 p {
+    font-size: 15px;
+    width: 100%;
+  }
+    .affiliationLogos{
+      width: 50%;
+    }
+
+    .express p{  
+      width: 100%;
+      }
+  
+}
+@media screen and (max-width: 900px){
+  nav {
+    display: none;
+  }
+  .btn button {
+    display: none;
+  }
+
+  .text2 button{
+    font-size: 14px;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .text1 h2{
+    font-size: 35px;
+  }
+  .text1 p{
+    font-size: 14px;
+    width: 100%;
+
+  }
+  .input input{
+    padding: .5rem .8rem;
+    width: 235px;
+  }
+
+  .inputBtn button{
+    font-size: 14px;
+  }
+
+  .affiliationLogos{
+    gap: 3.5rem;
+  }
+
+  .clienttext h2 {
+    font-size: 30px;
+    }
+
+    .allLines{
+      width: 35%;
+      
+    }
+
+    .express p{  
+      width: 100%;
+      font-size: 13px;
+      }
+}
+
+@media screen and (max-width: 768px){
+  .affiliationLogos{
+   gap: 3.5rem;
+  }
+  .affiliationLogos img{
+   width: 80%;
+  }
+
+  .express p{  
+    width: 100%;
+    font-size: 11px;
+    }
+}
+@media screen and (max-width: 701px){
+  .text1 h2{
+    font-size: 30px;
+  }
+  .text1 p{
+    font-size: 14px;
+    width: 100%;
+
+  }
+  .input input{
+    padding: .5rem .8rem;
+    width: 200px;
+    border: none;
+  }
+
+  .inputBtn button{
+    font-size: 14px;
+    padding: .5rem;
+  }
+
+  .text2 button{
+    font-size: 12px;
+    padding: 0.3rem 1rem;
+  }
+}
+@media screen and (max-width: 580px){
+  .hero {
+    display: block;
+    width: 90%;
+  }
+  
+  .textSide {
+    width: 100%;
+  }
+  
+  .imageside {
+    width: 100%;
+  }
+
+  .text1 h2 {
+    font-size: 40px;   
+  }
+  
+  .text1 p {
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  .text2 button{
+  font-size: 18px;
+  padding: .5rem 2.2rem ;
+  }
+
+  .input input{
+    padding: .8rem;
+    width: 345px;
+  }
+  
+  .inputBtn button{
+    padding: .8rem;
+    font-size: 16px;
+  }
+
+  .affiliationLogos{
+    display: block;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+}
+
+.affiliationLogos img{
+  width: 30%;
+}
+
+.emzor{
+  margin: 3rem ;
+}
+
+.lines{
+  width: 15%;
+}
+
+.line1{
+  width: 45px;
+}
+
+.line2{
+  width: 45px;
+}
+
+.benefitFlex{
+  display: block;
+}
+
+.benefitText{
+  width: 80%;
+  margin: auto;
+}
+
+.benefitText2{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.benefitImage{
+  width: 100%;
+}
+.benefitImage2{
+  width: 100%;
+  margin-top: 1rem;
+
+}
+
+.doorstepFlex{
+display: block;
+margin-bottom: 4rem;
+}
+
+.profileFlex{
+display: block;
+}
+
+.client{
+  flex-direction: column-reverse;
+}
+.clienttext{
+  width: 60%;
+  /* margin-right: 0; */
+  margin: auto;
+}
+
+.clientimage{
+  width: 100%;
+}
+
+.clienttext p {
+width: 100%;
+  }
+
+  .signup{
+    display: block;
+  }
+  
+  .signtext{
+    width: 100%;
+  }
+  
+  .signtext h3{
+  padding-bottom: 1rem;
+  }
+  
+  .signtext p{
+    padding-bottom: 1rem;
+  }
+
+  .Part2{
+    display: block;   
+    margin: 5rem 0;
+  }
+  
+  .Footerlist{
+  display: block;
+  width: 100%;
+  }
+  
+  .express{
+    width: 100%;
+    margin: 1rem 1rem;
+  }
+
+  .flist{
+    padding-bottom: 2rem;
+  }
+  
+  .flist p{
+  font-size: 16px;
+  }
+  
+  .flist h3{
+  font-size: 18px;
+  }
+  
+  .express h3{
+  color: #FFF;
+  font-family: montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-bottom: 1rem;
+  }
+  
+  .express p{
+  color: #FFF;
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 1rem;
+  width: 100%;
+  }
+  
+  .copyright p{
+  color: #FFF;
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 1rem;
+  text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 481px) {
+  .input input{
+    padding: .8rem;
+    width: 300px;
+  }
+
+  .text2 button{
+    font-size: 18px;
+    padding: .5rem 1.8rem ;
+    }
+
+    .clienttext h2 {
+      font-size: 25px;  
+      }
+
+      .clienttext p {
+        font-size: 16px;
+}
+}
+
+@media screen and (max-width: 425px){
+  .input input{
+    padding: .8rem;
+    width: 200px;
+  }
+  
+  .clienttext p {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 397px){
+  
+  .clienttext p {
+    font-size: 12px;
+}
+
+.text2 button{
+  font-size: 18px;
+  padding: .5rem 1.2rem ;
+  }
+}
+@media screen and (max-width: 375px){
+  
+  .clienttext p {
+    font-size: 12px;
+}
+
+.text2 button{
+  font-size: 18px;
+  padding: .5rem 1.2rem ;
+  }
+
+  .benefitText{
+    width: 100%;
+    margin-left: 1rem;
+  }
+  
+  .benefitText2{
+    width: 100%;
+    margin-left: 1rem;
+  }
+
+  .benefitText2 h4{
+    width: 100%;
+    font-size: 20px;
+  }
+  .benefitText h4{
+    width: 100%;
+    font-size: 18px;
+  }
+  .benefitText2 p{
+    width: 100%;
+    font-size: 16px;
+  }
+  .benefitText p{
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .clienttext h2 {
+    font-size: 20px;
+    }
+}
